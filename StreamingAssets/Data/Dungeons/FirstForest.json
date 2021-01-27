@@ -1,0 +1,135 @@
+﻿{
+  "data": {
+    "name": "始まりの森",
+    "id": "FirstForest"
+  },
+  "enemies": [
+    {
+      "border": 8,
+      "monsters": [
+        "Goblin",
+        "Mandrake",
+        "Slime",
+        "Snake"
+      ]
+    },
+    {
+      "monsters": [
+        "Goblin",
+        "Mandrake",
+        "Slime",
+        "Snake"
+      ]
+    }
+  ],
+  "eliteEnemies": [
+    {
+      "border": 8,
+      "monsters": [
+        ["GreatOwl"],
+        ["Panda"]
+      ],
+      "addLevel": 3
+    },
+    {
+      "monsters": [
+        ["Bunny","Witch","Imp"],
+        ["Mantis","MantisElite","Mantis"]
+      ],
+      "addLevel": 5
+    }
+  ],
+  "bosses": {
+    "monsters": ["EarthSpirit,RockGolem,EarthSpirit"],
+    "level": 5
+  },
+  "enemyAmount": [
+    {
+      "border": 6,
+      "min": 1,
+      "max": 1
+    },{
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "enemyLevel": {
+    "min": 1,
+    "max": 1,
+    "addingLevelPerFloor ": 1
+  },
+  "map": {
+    "battle": 8,
+    "elite": 4,
+    "evt": 3,
+    "treasure": 2,
+    "boss": 1,
+    "escape": 12
+  },
+  "drops": [
+    {
+      "itemId": "ラウンドシールド",
+      "rate": 10
+    },
+    {
+      "itemId": "ロングボウ",
+      "rate": 10
+    },
+    {
+      "itemId": "森の杖",
+      "rate": 10
+    },
+    {
+      "itemId": "獣の爪",
+      "rate": 10
+    },
+    {
+      "itemId": "薬草",
+      "rate": 10
+    },
+    {
+      "itemId": "指輪",
+      "rate": 10
+    },
+    {
+      "itemId": "白紙の本",
+      "rate": 10
+    },
+    {
+      "itemId": "布の服",
+      "rate": 10
+    },
+    {
+      "itemId": "麦わら帽子",
+      "rate": 10
+    },
+    {
+      "itemId": "羽",
+      "rate": 10
+    },
+    {
+      "itemId": "ランタン",
+      "rate": 10
+    },
+    {
+      "itemId": "平和の剣",
+      "rate": 5
+    },
+    {
+      "itemId": "ちょうちょ",
+      "rate": 5
+    },
+    {
+      "itemId": "魔法使いの帽子",
+      "rate": 5
+    }
+  ],
+  "bossDrops": [
+    {
+      "itemId": "森征服の盾",
+      "rate": 100
+    }
+  ],
+  "dropPower": 10,
+  "buffPattern": "Default"
+}

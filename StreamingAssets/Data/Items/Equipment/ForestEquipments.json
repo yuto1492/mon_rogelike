@@ -1,0 +1,287 @@
+﻿{
+  "list": [
+    {
+      "data": {
+        "itemId": "ラウンドシールド",
+        "name": "ラウンドシールド",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "丸い盾、使いやすい"
+      },
+      "parameter": {
+        "hp": 6,
+        "def": 1,
+        "dodge": 5,
+        "potentialHp": 1,
+        "potentialDef": 0.5
+      },
+      "imageData": {
+        "spritePath": "ラウンドシールド"
+      }
+    },
+    {
+      "data": {
+        "itemId": "ロングボウ",
+        "name": "ロングボウ",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "普通の弓"
+      },
+      "parameter": {
+        "atk": 4,
+        "crit": 4,
+        "hit": 4,
+        "potentialAtk": 1
+      },
+      "effect": {
+        "boostPierce": 5
+      },
+      "imageData": {
+        "spritePath": "ロングボウ"
+      }
+    },
+    {
+      "data": {
+        "itemId": "森の杖",
+        "name": "森の杖",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "森の木で作られた杖、ほのかに魔力を感じる"
+      },
+      "parameter": {
+        "mat": 6,
+        "potentialMat": 1.2
+      },
+      "effect": {
+        "boostMagic": 5
+      },
+      "imageData": {
+        "spritePath": "森の杖"
+      }
+    },
+    {
+      "data": {
+        "itemId": "獣の爪",
+        "name": "獣の爪",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "獣の爪を模した爪"
+      },
+      "parameter": {
+        "atk": 6,
+        "crit": 10,
+        "dodge": 5,
+        "potentialAtk": 1.2
+      },
+      "effect": {
+        "boostSlash": 5
+      },
+      "imageData": {
+        "spritePath": "獣の爪"
+      }
+    },
+    {
+      "data": {
+        "itemId": "薬草",
+        "name": "薬草",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "特別な効能がある不思議な葉っぱ"
+      },
+      "effect": {
+        "regenHp": 5
+      },
+      "imageData": {
+        "spritePath": "薬草"
+      }
+    },
+    {
+      "data": {
+        "itemId": "指輪",
+        "name": "指輪",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "地面に落ちていた指輪、なにやら不思議な力を感じる"
+      },
+      "parameter": {
+        "potentialHp": 2,
+        "potentialMp": 1,
+        "potentialAtk": 1,
+        "potentialDef": 1,
+        "potentialMat": 1,
+        "potentialMdf": 1,
+        "potentialSpd": 0.5
+      },
+      "imageData": {
+        "spritePath": "指輪"
+      }
+    },
+    {
+      "data": {
+        "itemId": "白紙の本",
+        "name": "白紙の本",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "何も描かれてない本"
+      },
+      "parameter": {
+        "mp": 5,
+        "mdf": 5,
+        "potentialMp": 1,
+        "potentialMdf": 1
+      },
+      "effect": {
+        "resistMagic": 5
+      },
+      "imageData": {
+        "spritePath": "白紙の本"
+      }
+    },
+    {
+      "data": {
+        "itemId": "布の服",
+        "name": "布の服",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "一般的な服"
+      },
+      "parameter": {
+        "def": 4,
+        "dodge": 2,
+        "potentialDef": 1
+      },
+      "imageData": {
+        "spritePath": "布の服"
+      }
+    },
+    {
+      "data": {
+        "itemId": "麦わら帽子",
+        "name": "麦わら帽子",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "一般的な帽子"
+      },
+      "parameter": {
+        "hp": 5,
+        "def": 2,
+        "potentialHp": 1,
+        "potentialDef": 0.5
+      },
+      "imageData": {
+        "spritePath": "麦わら帽子"
+      }
+    },
+    {
+      "data": {
+        "itemId": "羽",
+        "name": "羽",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "なにかの羽"
+      },
+      "parameter": {
+        "spd": 5,
+        "potentialSpd": 0.5
+      },
+      "imageData": {
+        "spritePath": "羽"
+      }
+    },
+    {
+      "data": {
+        "itemId": "ランタン",
+        "name": "ランタン",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "あたりを照らす道具"
+      },
+      "parameter": {
+        "spd": 5,
+        "hit": 10
+      },
+      "imageData": {
+        "spritePath": "ランタン"
+      }
+    },
+    {
+      "data": {
+        "itemId": "平和の剣",
+        "name": "平和の剣",
+        "type": "Equipment",
+        "rank": 2,
+        "description": "平和を象徴する剣、象徴的なものなので実用性は低い"
+      },
+      "parameter": {
+        "atk": 5,
+        "mdf": 2,
+        "potentialAtk": 1.5,
+        "potentialMdf": 0.5
+      },
+      "effect": {
+        "boostSlash": 5
+      },
+      "imageData": {
+        "spritePath": "平和の剣"
+      }
+    },
+    {
+      "data": {
+        "itemId": "ちょうちょ",
+        "name": "ちょうちょ",
+        "type": "Equipment",
+        "rank": 2,
+        "description": "珍しい個体、なにか幸運を運んでくれそうだ"
+      },
+      "parameter": {
+        "crit": 5
+      },
+      "effect": {
+        "dropRate": 10
+      },
+      "imageData": {
+        "spritePath": "ちょうちょ"
+      }
+    },
+    {
+      "data": {
+        "itemId": "魔法使いの帽子",
+        "name": "魔法使いの帽子",
+        "type": "Equipment",
+        "rank": 2,
+        "description": "魔法使いの証"
+      },
+      "parameter": {
+        "mat": 6,
+        "potentialMat": 1.7
+      },
+      "effect": {
+        "boostMagic": 7
+      },
+      "imageData": {
+        "spritePath": "魔法使いの帽子"
+      }
+    },
+    {
+      "data": {
+        "itemId": "森征服の盾",
+        "name": "森征服の盾",
+        "type": "Equipment",
+        "rank": 4,
+        "description": "森の征服者"
+      },
+      "parameter": {
+        "def": 10,
+        "dodge": 5,
+        "potentialDef": 1.8,
+        "hostile": 50
+      },
+      "effect": {
+        "resistPoison": 10
+      },
+      "imageData": {
+        "spritePath": "森征服の盾"
+      }
+    }
+  ]
+}

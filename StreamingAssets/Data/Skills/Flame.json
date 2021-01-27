@@ -1,0 +1,29 @@
+﻿{
+  "skillId": "Flame",
+  "name": "フレイム",
+  "type": "active",
+  "coolTime": 4,
+  "mp": 150,
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "mat",
+            "rate": 1.2
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "magic",
+      "fire"
+    ]
+  },
+  "target": "all_enemy",
+  "effectAnimationId": "Flame",
+  "iconSpritePath": "Sprites/Icons/Skills/Flame",
+  "description": "敵全体に炎属性の魔法攻撃をする"
+}

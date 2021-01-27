@@ -1,0 +1,31 @@
+﻿{
+  "skillId": "NaturalHeal",
+  "name": "自然治癒",
+  "type": "active",
+  "coolTime": 8,
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "regeneration_hp",
+        "rates": [
+          {
+            "dependence": "maxhp",
+            "rate": 0.25
+          },
+          {
+            "dependence": "mat",
+            "rate": 0.7
+          }
+        ]
+      }
+    ],
+    "type": "heal",
+    "elements": [
+      "heal"
+    ]
+  },
+  "target": "self",
+  "effectAnimationId": "NaturalHeal",
+  "iconSpritePath": "Sprites/Icons/Skills/NaturalHeal",
+  "description": "使用者のHPを複数ターンかけて回復する"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "list": [
+    {
+      "id": "集中",
+      "name": "集中",
+      "effect": {
+        "parameter": {
+          "hitRate": 1.2
+        },
+        "special": [
+          "Concentration"
+        ]
+      },
+      "iconSpritePath": "Sprites/Icons/Passives/Attack",
+      "description": "命中率+20% 物理ダメージを命中させるたびに速度が上昇する(最大20回まで重複)(基礎値の2倍)"
+    }
+  ]
+}

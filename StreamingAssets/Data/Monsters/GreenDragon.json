@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "monsterId": "GreenDragon",
+    "name": "グリーンドラゴン",
+    "race": "Dragon",
+    "rank": 3,
+    "needExp": 20,
+    "hasExp": 10
+  },
+  "parameter": {
+    "hp": 100,
+    "mp": 10,
+    "atk": 11,
+    "def": 8,
+    "mat": 6,
+    "mdf": 8,
+    "spd": 10
+  },
+  "potential": {
+    "hp": 6,
+    "mp": 2,
+    "atk": 6,
+    "def": 4,
+    "mat": 3,
+    "mdf": 4,
+    "spd": 4
+  },
+  "ai": "normal",
+  "learning" : [
+    {
+      "skillId": "Flame",
+      "level": 1
+    }
+  ],
+  "imageData": {
+    "spritePath": "Sprites/Monsters/GreenDragon",
+    "timelineCard": {
+      "x": 187,
+      "y": -88,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  }
+}

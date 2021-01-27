@@ -1,0 +1,135 @@
+﻿{
+  "list": [
+    {
+      "data": {
+        "itemId": "SlimeJelly",
+        "name": "スライムゼリー",
+        "type": "Equipment",
+        "rank": 1
+      },
+      "parameter": {
+        "hp": 20,
+        "potentialHp": 5
+      },
+      "effect": {
+        "regenHp": 5
+      },
+      "imageData": {
+        "spritePath": "スライムゼリー"
+      }
+    },
+    {
+      "data": {
+        "itemId": "人参",
+        "name": "人参",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "おいしい野菜"
+      },
+      "parameter": {
+        "hp": 20,
+        "potentialHp": 2
+      },
+      "imageData": {
+        "spritePath": "人参"
+      }
+    },
+    {
+      "data": {
+        "itemId": "黄金人参",
+        "name": "黄金人参",
+        "type": "Equipment",
+        "rank": 3,
+        "description": "光り輝く珍しい人参"
+      },
+      "parameter": {
+        "hp": 30,
+        "potentialHp": 3,
+        "dodge": 5,
+        "dropRate": 10
+      },
+      "imageData": {
+        "spritePath": "黄金人参"
+      }
+    },
+    {
+      "data": {
+        "itemId": "こんぼう",
+        "name": "こんぼう",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "原始的な武器、重いので当てづらい"
+      },
+      "parameter": {
+        "atk": 5,
+        "hit": -2,
+        "potentialAtk": 1.5
+      },
+      "effect": {
+        "boostBlow": 5
+      },
+      "imageData": {
+        "spritePath": "こんぼう"
+      }
+    },
+    {
+      "data": {
+        "itemId": "へびのうろこ",
+        "name": "へびのうろこ",
+        "type": "Equipment",
+        "rank": 1,
+        "description": "財布の中に入れておくと金運があがると言われる"
+      },
+      "effect": {
+        "boostGold": 10
+      },
+      "imageData": {
+        "spritePath": "へびのうろこ"
+      }
+    },
+    {
+      "data": {
+        "itemId": "炎のこんぼう",
+        "name": "炎のこんぼう",
+        "type": "Equipment",
+        "rank": 3,
+        "description": "炎の精霊に祝福されたこんぼう"
+      },
+      "parameter": {
+        "atk": 6,
+        "hit": -3,
+        "potentialAtk": 1.6
+      },
+      "effect": {
+        "boostBlow": 5,
+        "boostFire": 5,
+        "effectAttackFire": 1
+      },
+      "imageData": {
+        "spritePath": "炎のこんぼう"
+      }
+    },
+    {
+      "data": {
+        "itemId": "氷のこんぼう",
+        "name": "氷のこんぼう",
+        "type": "Equipment",
+        "rank": 3,
+        "description": "氷の精霊に祝福されたこんぼう"
+      },
+      "parameter": {
+        "atk": 6,
+        "hit": -3,
+        "potentialAtk": 1.6
+      },
+      "effect": {
+        "boostBlow": 5,
+        "boostIce": 5,
+        "effectAttackIce": 1
+      },
+      "imageData": {
+        "spritePath": "氷のこんぼう"
+      }
+    }
+  ]
+}

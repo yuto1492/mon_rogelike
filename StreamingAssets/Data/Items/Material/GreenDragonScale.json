@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "itemId": "GreenDragonScale",
+    "name": "グリーンドラゴンの鱗",
+    "type": "Material",
+    "reality": 1
+  },
+  "effect": {
+  },
+  "imageData": {
+    "spritePath": "DragonScale"
+  }
+}

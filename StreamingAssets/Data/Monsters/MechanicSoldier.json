@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "monsterId": "MechanicSoldier",
+    "name": "メカニックソルジャー",
+    "race": "Human",
+    "rank": 2,
+    "needExp": 10,
+    "hasExp": 5
+  },
+  "parameter": {
+    "hp": 70,
+    "mp": 5,
+    "atk": 7,
+    "def": 7,
+    "mat": 3,
+    "mdf": 3,
+    "spd": 6
+  },
+  "potential": {
+    "hp": 3,
+    "mp": 1,
+    "atk": 3,
+    "def": 3,
+    "mat": 1,
+    "mdf": 1,
+    "spd": 2
+  },
+  "learning" : [
+    {
+      "skillId": "MajinGiri",
+      "level": 1
+    },
+    {
+      "skillId": "SleepingTouch",
+      "level": 1
+    }
+  ],
+  "ai": "normal",
+  "imageData": {
+    "spritePath": "Sprites/Monsters/MechanicSoldier",
+    "timelineCard": {
+      "x": 38.5,
+      "y": -13,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  }
+}

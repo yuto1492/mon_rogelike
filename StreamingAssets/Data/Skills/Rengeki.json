@@ -1,0 +1,30 @@
+﻿{
+  "skillId": "Rengeki",
+  "name": "連撃",
+  "type": "active",
+  "strikeSize": {
+    "min": 2,
+    "max": 3
+  },
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "atk",
+            "rate": 1
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "physics"
+    ]
+  },
+  "target": "enemy",
+  "effectAnimationId": "AttackHit",
+  "iconSpritePath": "Sprites/Icons/Skills/DoubleAttack",
+  "description": "敵を2-3回連続で攻撃する"
+}

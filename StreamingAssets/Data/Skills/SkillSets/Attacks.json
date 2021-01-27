@@ -1,0 +1,57 @@
+﻿{
+  "list": [
+    {
+      "skillId": "Attack",
+      "name": "アタック",
+      "type": "attack",
+      "effect": {
+        "value": [
+          {
+            "valueTarget": "hp",
+            "rates": [
+              {
+                "dependence": "atk",
+                "rate": 1
+              }
+            ]
+          }
+        ],
+        "type": "damage",
+        "elements": [
+          "physics"
+        ]
+      },
+      "target": "enemy",
+      "effectAnimationId": "Attack/Attack",
+      "iconSpritePath": "Sprites/Icons/Skills/Attack",
+      "description": "敵を攻撃する"
+    },
+    {
+      "skillId": "AttackPierce",
+      "name": "アタック(突)",
+      "type": "attack",
+      "effect": {
+        "value": [
+          {
+            "valueTarget": "hp",
+            "rates": [
+              {
+                "dependence": "atk",
+                "rate": 1
+              }
+            ]
+          }
+        ],
+        "type": "damage",
+        "elements": [
+          "physics",
+          "pierce"
+        ]
+      },
+      "target": "enemy",
+      "effectAnimationId": "Attack/AttackArrow",
+      "iconSpritePath": "Sprites/Icons/Skills/Attack",
+      "description": "敵を攻撃する"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿{
+  "data": {
+    "monsterId": "Slime",
+    "name": "スライム",
+    "race": "Unknown",
+    "rank": 1,
+    "needExp": 8,
+    "hasExp": 5
+  },
+  "parameter": {
+    "hp": 90,
+    "mp": 5,
+    "atk": 4,
+    "def": 4,
+    "mat": 3,
+    "mdf": 3,
+    "spd": 4
+  },
+  "potential": {
+    "hp": 4,
+    "mp": 1,
+    "atk": 2,
+    "def": 2,
+    "mat": 1,
+    "mdf": 1,
+    "spd": 1
+  },
+  "learning" : [
+    {
+      "skillId": "PoisonFang",
+      "level": 2
+    },
+    {
+      "skillId": "SleepingTouch",
+      "level": 1
+    }
+  ],
+  "drops": [
+    {
+      "itemId": "SlimeCrystal",
+      "rate": 10
+    },
+    {
+      "itemId": "スライムゼリー",
+      "rate": 10
+    }
+  ],
+  "ai": "normal",
+  "imageData": {
+    "spritePath": "Sprites/Monsters/Slime",
+    "timelineCard": {
+      "x": 39,
+      "y": 27,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  }
+}

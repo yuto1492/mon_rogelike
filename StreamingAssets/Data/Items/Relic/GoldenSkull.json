@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "itemId": "GoldenSkull",
+    "name": "黄金の髑髏",
+    "type": "Relic"
+  },
+  "effect": {
+  },
+  "imageData": {
+    "spritePath": "GoldenSkull"
+  }
+}

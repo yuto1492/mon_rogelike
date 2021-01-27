@@ -1,0 +1,39 @@
+﻿{
+  "skillId": "SleepingTouch",
+  "name": "スリープタッチ",
+  "type": "active",
+  "coolTime": 5,
+  "mp": 0,
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "atk",
+            "rate": 1    
+          }
+        ]
+      },
+      {
+        "valueTarget": "sleep",
+        "rates": [
+          {
+            "dependence": "efc",
+            "addValue": 50,
+            "rate": 1
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "physics",
+      "sleep"
+    ]
+  },
+  "target": "enemy",
+  "effectAnimationId": "SleepingTouch",
+  "iconSpritePath": "Sprites/Icons/Skills/SleepingTouch",
+  "description": "物理ダメージを与え \n 睡眠を付与する"
+}

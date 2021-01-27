@@ -1,0 +1,54 @@
+﻿{
+  "data": {
+    "monsterId": "Snake",
+    "name": "スネーク",
+    "race": "Animal",
+    "rank": 1,
+    "needExp": 8,
+    "hasExp": 5
+  },
+  "parameter": {
+    "hp": 65,
+    "mp": 5,
+    "atk": 6,
+    "def": 5,
+    "mat": 4,
+    "mdf": 5,
+    "spd": 6
+  },
+  "potential": {
+    "hp": 2,
+    "mp": 1,
+    "atk": 3,
+    "def": 2,
+    "mat": 2,
+    "mdf": 2,
+    "spd": 2
+  },
+  "learning" : [
+    {
+      "skillId": "PoisonFang",
+      "level": 2
+    }
+  ],
+  "drops": [
+    {
+      "itemId": "SnakeCrystal",
+      "rate": 10
+    },
+    {
+      "itemId": "へびのうろこ",
+      "rate": 10
+    }
+  ],
+  "ai": "normal",
+  "imageData": {
+    "spritePath": "Sprites/Monsters/Snake",
+    "timelineCard": {
+      "x": 39,
+      "y": 27,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  }
+}

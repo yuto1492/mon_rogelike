@@ -1,0 +1,56 @@
+﻿{
+  "list": [
+    {
+      "data": {
+        "itemId": "GoblinCrystal",
+        "name": "ゴブリンの魂石",
+        "type": "Soul"
+      },
+      "effect": {
+        "monsterId": "Goblin"
+      },
+      "imageData": {
+        "spritePath": "SoulCrystal"
+      }
+    },
+    {
+      "data": {
+        "itemId": "SlimeCrystal",
+        "name": "スライムの魂石",
+        "type": "Soul"
+      },
+      "effect": {
+        "monsterId": "Slime"
+      },
+      "imageData": {
+        "spritePath": "SoulCrystal"
+      }
+    },
+    {
+      "data": {
+        "itemId": "MandrakeCrystal",
+        "name": "マンドレイクの魂石",
+        "type": "Soul"
+      },
+      "effect": {
+        "monsterId": "Mandrake"
+      },
+      "imageData": {
+        "spritePath": "SoulCrystal"
+      }
+    },
+    {
+      "data": {
+        "itemId": "SnakeCrystal",
+        "name": "スネークの魂石",
+        "type": "Soul"
+      },
+      "effect": {
+        "monsterId": "Snake"
+      },
+      "imageData": {
+        "spritePath": "SoulCrystal"
+      }
+    }
+  ]
+}

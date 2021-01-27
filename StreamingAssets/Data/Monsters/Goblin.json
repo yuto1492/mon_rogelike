@@ -1,0 +1,73 @@
+﻿{
+  "data": {
+    "monsterId": "Goblin",
+    "name": "ゴブリン",
+    "race": "Demi-Human",
+    "rank": 1,
+    "needExp": 10,
+    "hasExp": 5
+  },
+  "parameter": {
+    "hp": 60,
+    "mp": 10,
+    "atk": 6,
+    "def": 6,
+    "mat": 4,
+    "mdf": 3,
+    "spd": 5
+  },
+  "potential": {
+    "hp": 2,
+    "mp": 1,
+    "atk": 3,
+    "def": 2,
+    "mat": 1,
+    "mdf": 1,
+    "spd": 1
+  },
+  "drops": [
+    {
+      "itemId": "GoblinCrystal",
+      "rate": 10
+    },
+    {
+      "itemId": "こんぼう",
+      "rate": 10
+    },
+    {
+      "itemId": "炎のこんぼう",
+      "rate": 1
+    },
+    {
+      "itemId": "氷のこんぼう",
+      "rate": 1
+    }
+  ],
+  "learning" : [
+    {
+      "skillId": "AttackPierce"
+    },
+    {
+      "skillId": "パワーショット",
+      "level": 6
+    },
+    {
+      "passiveId": "集中",
+      "level": 11
+    },
+    {
+      "skillId": "乱れ撃ち",
+      "level": 16
+    }
+  ],
+  "ai": "normal",
+  "imageData": {
+    "spritePath": "Sprites/Monsters/Goblin",
+    "timelineCard": {
+      "x": 38.5,
+      "y": -13,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  }
+}

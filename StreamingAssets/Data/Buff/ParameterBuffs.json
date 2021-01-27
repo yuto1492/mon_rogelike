@@ -1,0 +1,84 @@
+﻿{
+  "buffs": [
+    {
+      "id": "MaxHpBuff",
+      "name": "HP上昇",
+      "iconSlicePath": "Iconset_32",
+      "iconPath": "Iconset",
+      "description": "最大HPが上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "maxHp"
+    },
+    {
+      "id": "MaxMpBuff",
+      "name": "MP上昇",
+      "iconSlicePath": "Iconset_33",
+      "iconPath": "Iconset",
+      "description": "最大MPが上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "maxMp"
+    },
+    {
+      "id": "AtkBuff",
+      "name": "攻撃力上昇",
+      "iconSlicePath": "Iconset_34",
+      "iconPath": "Iconset",
+      "description": "攻撃力が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "atk"
+    },
+    {
+      "id": "DefBuff",
+      "name": "防御力上昇",
+      "iconSlicePath": "Iconset_35",
+      "iconPath": "Iconset",
+      "description": "防御力が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "def"
+    },
+    {
+      "id": "MatBuff",
+      "name": "魔法攻撃力上昇",
+      "iconSlicePath": "Iconset_36",
+      "iconPath": "Iconset",
+      "description": "魔法攻撃力が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "mat"
+    },
+    {
+      "id": "MdfBuff",
+      "name": "魔法防御力上昇",
+      "iconSlicePath": "Iconset_89",
+      "iconPath": "Iconset",
+      "description": "魔法防御力が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "mdf"
+    },
+    {
+      "id": "SpdBuff",
+      "name": "素早さ上昇",
+      "iconSlicePath": "Iconset_37",
+      "iconPath": "Iconset",
+      "description": "速度が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "spd"
+    },
+    {
+      "id": "CritBuff",
+      "name": "クリティカル率上昇",
+      "iconSlicePath": "Iconset_91",
+      "iconPath": "Iconset",
+      "description": "クリティカル率が上昇する",
+      "reality": 0,
+      "type": "addition",
+      "parameter": "crit"
+    }
+  ]
+}

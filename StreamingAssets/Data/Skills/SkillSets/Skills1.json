@@ -1,0 +1,59 @@
+﻿{
+  "list": [
+    {
+      "skillId": "パワーショット",
+      "name": "パワーショット",
+      "type": "active",
+      "mp": 5,
+      "effect": {
+        "value": [
+          {
+            "valueTarget": "hp",
+            "rates": [
+              {
+                "dependence": "atk",
+                "rate": 1.2
+              }
+            ]
+          }
+        ],
+        "type": "damage",
+        "elements": [
+          "physics",
+          "pierce"
+        ]
+      },
+      "target": "enemy",
+      "effectAnimationId": "arrow/パワーショット",
+      "iconSpritePath": "Sprites/Icons/Skills/PowerShot",
+      "description": "通常より強い一撃で攻撃する"
+    },
+    {
+      "skillId": "乱れ撃ち",
+      "name": "乱れ撃ち",
+      "type": "active",
+      "mp": 15,
+      "strikeSize": {
+        "min": 4,
+        "max": 7
+      },
+      "effect": {
+        "value": [
+          {
+            "override": "Attack"
+          }
+        ],
+        "type": "damage",
+        "elements": [
+          "physics",
+          "pierce"
+        ],
+        "hitRate": 50
+      },
+      "target": "enemy",
+      "effectAnimationId": "arrow/AttackArrow",
+      "iconSpritePath": "Sprites/Icons/Skills/RushShot",
+      "description": "複数回射撃する、ただし命中率が半減する"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿{
+  "skillId": "PoisonFang",
+  "name": "ポイズンファング",
+  "type": "active",
+  "coolTime": 5,
+  "mp": 0,
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "atk",
+            "rate": 1    
+          }
+        ]
+      },
+      {
+        "valueTarget": "poison",
+        "turn": 8,
+        "rates": [
+          {
+            "dependence": "atk",
+            "rate": 0.25
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "physics",
+      "poison"
+    ]
+  },
+  "target": "enemy",
+  "effectAnimationId": "PoisonAttack",
+  "damageColor": "#A2BE5F",
+  "iconSpritePath": "Sprites/Icons/Skills/PoisonFang",
+  "description": "物理ダメージと３ターン継続する毒をあたえる"
+}

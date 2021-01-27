@@ -1,0 +1,27 @@
+﻿{
+  "skillId": "Heal",
+  "name": "ヒール",
+  "type": "active",
+  "coolTime": 8,
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "heal_hp",
+        "rates": [
+          {
+            "dependence": "mdf",
+            "rate": 2
+          }
+        ]
+      }
+    ],
+    "type": "heal",
+    "elements": [
+      "heal"
+    ]
+  },
+  "target": "member",
+  "effectAnimationId": "Heal",
+  "iconSpritePath": "Sprites/Icons/Skills/Heal",
+  "description": "味方単体のHPを回復する"
+}

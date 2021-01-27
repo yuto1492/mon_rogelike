@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "itemId": "Leather",
+    "name": "革",
+    "type": "Material",
+    "reality": 0
+  },
+  "effect": {
+  },
+  "imageData": {
+    "spritePath": "leather"
+  }
+}

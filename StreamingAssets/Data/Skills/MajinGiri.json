@@ -1,0 +1,31 @@
+﻿{
+  "skillId": "MajinGiri",
+  "name": "デーモンスラッシュ",
+  "type": "active",
+  "strikeSize": {
+    "min": 2,
+    "max": 2
+  },
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "atk",
+            "rate": 3
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "physics"
+    ],
+    "hitRate": 50
+  },
+  "target": "random_enemy",
+  "effectAnimationId": "MajinGiri",
+  "iconSpritePath": "Sprites/Icons/Skills/MajinGiri",
+  "description": "ランダムな敵に大ダメージ、ただし命中率が低い"
+}

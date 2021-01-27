@@ -1,0 +1,53 @@
+﻿{
+  "data": {
+    "monsterId": "Kyubi",
+    "name": "キュウビ",
+    "race": "Animal",
+    "rank": 6,
+    "needExp": 40,
+    "hasExp": 40
+  },
+  "parameter": {
+    "hp": 85,
+    "mp": 50,
+    "atk": 9,
+    "def": 7,
+    "mat": 14,
+    "mdf": 12,
+    "spd": 9
+  },
+  "potential": {
+    "hp": 5,
+    "mp": 6,
+    "atk": 5,
+    "def": 4,
+    "mat": 7,
+    "mdf": 6,
+    "spd": 5
+  },
+  "learning" : [
+    {
+      "skillId": "Flame",
+      "level": 1
+    },
+    {
+      "skillId": "Rengeki",
+      "level": 1
+    },
+    {
+      "skillId": "PoisonFang",
+      "level": 2
+    }
+  ],
+  "ai": "normal",
+  "imageData": {
+    "spritePath": "Sprites/Monsters/Kyubi",
+    "timelineCard": {
+      "x": 180,
+      "y": -20,
+      "scaleX": 1.2,
+      "scaleY": 1.2
+    },
+    "actorScale": 0.6
+  }
+}

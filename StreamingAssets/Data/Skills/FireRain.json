@@ -1,0 +1,33 @@
+﻿{
+  "skillId": "FireRain",
+  "name": "炎の雨",
+  "type": "active",
+  "coolTime": 5,
+  "mp": 300,
+  "strikeSize": {
+    "min": 5,
+    "max": 10
+  },
+  "effect": {
+    "value": [
+      {
+        "valueTarget": "hp",
+        "rates": [
+          {
+            "dependence": "mat",
+            "rate": 1.2
+          }
+        ]
+      }
+    ],
+    "type": "damage",
+    "elements": [
+      "magic",
+      "fire"
+    ]
+  },
+  "target": "random_enemy",
+  "effectAnimationId": "FireRain",
+  "iconSpritePath": "Sprites/Icons/Skills/FireRain",
+  "description": "ランダムな敵を炎属性で複数回攻撃する"
+}
